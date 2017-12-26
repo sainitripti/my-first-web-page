@@ -126,11 +126,28 @@ My Web Page
 <a name="otherlinks">
 <h2> Other handles </h2>
 <br>
-<h4>Please provide a feedback here: </h4>
+<h4>Quick Survey </h4>
+	<p> Please fill in the form below: </p>
 	<form action=" " method=" ">
-		<label for="name"> Name: </label> <input type="text" id="name" name=" ">
-		<br>
-		Suggestion: <textarea rows="5" cols="50"> </textarea>
+		<label for="name">Name: </label> 
+		<input type="text" id="name" name=" " size="30">
+		<br><br>
+		Age: 
+		&nbsp &nbsp<input type="radio" name="age" value=" "> less than 18 
+		&nbsp &nbsp<input type="radio" name="age" value=" ">18-24
+		&nbsp &nbsp<input type="radio" name="age" value=" ">24-28
+		&nbsp &nbsp<input type="radio" name="age" value=" ">greater than 28
+		<br><br>
+		Field of interest:
+		<br><input type="checkbox" name="profession" checked="checked" value=" " >Computer Science
+		<br><input type="checkbox" name="profession" value=" ">Business
+		<br><input type="checkbox" name="profession" value=" ">Marketing
+		<br><input type="checkbox" name="profession" value=" ">Web development
+		<br><input type="checkbox" name="profession" value=" ">Other
+		&nbsp &nbsp<label for="otherprofession">Please mention:</label>
+		<input type="text" size="30" id="otherprofession" name=" ">
+		<br><br>
+		Feedback: <textarea rows="2" cols="30"> </textarea>
 		<br>
 		<input type="submit" value="Submit">
 	</form>
